@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Publisher Test — Trust Pixel demo</title>
+<link rel="canonical" href="https://douala2019.github.io/tnm-test-fixtures/publisher-test.html" />
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 640px; margin: 64px auto; padding: 0 20px; color: #1a1a1a; }
+  h1 { font-size: 1.4rem; }
+  a.cta {
+    display: inline-block; margin-top: 24px; padding: 14px 28px;
+    background: #4f46e5; color: #fff; text-decoration: none; border-radius: 8px; font-weight: 600;
+  }
+  p.fixture-note { margin-top: 40px; color: #999; font-size: 0.8rem; }
+</style>
+</head>
+<body>
+  <h1>Publisher Test — Trust Network Pixel demo</h1>
+  <p>This page installs the Trust Pixel and has one CTA link tagged
+     <code>data-trust-cta</code>, pointing at a Trust Redirect link.</p>
+
+  <a class="cta" href="https://web-production-2a6779.up.railway.app/c/cu4t8Z02" data-trust-cta>Continue to offer</a>
+
+  <p class="fixture-note">
+    Synthetic test fixture for Trust Network Monitor's click-tracking core
+    (ADR 0016) — not a real publisher or offer.
+  </p>
+
+  <script
+    src="https://web-production-2a6779.up.railway.app/pixel.js"
+    data-campaign="CAM-PROD-E2E"
+    data-affiliate="AFF-PROD-E2E"
+  ></script>
+</body>
+</html>
